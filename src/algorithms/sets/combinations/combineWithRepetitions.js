@@ -5,7 +5,7 @@
  */
 export default function combineWithRepetitions(comboOptions, comboLength) {
   if (comboLength === 1) {
-    return comboOptions.map(comboOption => [comboOption]);
+    return comboOptions.map((comboOption) => [comboOption]);
   }
 
   // Init combinations array.

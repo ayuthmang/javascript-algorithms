@@ -237,6 +237,6 @@ describe('AvlTree', () => {
       tree.remove(1);
     };
 
-    expect(removeNodeAvlTree).toThrowError();
+    expect(removeNodeAvlTree).toThrow();
   });
 });
