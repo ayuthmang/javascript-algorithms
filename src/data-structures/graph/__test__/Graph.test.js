@@ -263,7 +263,7 @@ describe('Graph', () => {
       graph.deleteEdge(edgeBC);
     }
 
-    expect(deleteNotExistingEdge).toThrowError();
+    expect(deleteNotExistingEdge).toThrow();
   });
 
   it('should be possible to reverse graph', () => {

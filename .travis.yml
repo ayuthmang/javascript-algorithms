@@ -5,6 +5,5 @@ node_js:
   - node
 script:
   - npm run ci
-  - npm run codecov
 notifications:
   email: false
